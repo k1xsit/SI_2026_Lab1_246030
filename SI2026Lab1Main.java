@@ -108,6 +108,18 @@ class Library {
             }
         }
     }
+
+
+
+	public static boolean searchBook(List<Book> books, String title) {
+    for (Book book : books) {
+        if (book.getTitle().equalsIgnoreCase(title)) {
+            return true;
+        }
+    }
+    return false;
+}
+
 }
 
 public class SI2026Lab1Main {
@@ -120,5 +132,7 @@ public class SI2026Lab1Main {
         library.addBook(new Book("1984", "George Orwell", "Dystopian"));
 
         System.out.println("Library initialized.");
+	
+	System.out.println(searchBook(library, "Some Book Title"))	
     }
 }
