@@ -89,7 +89,8 @@ class Library {
 
     // TODO: Implement in branch feature-genre-report
     public void printBooksByGenre(String genre) {
-    }
+ 	// implementing again   
+}
 
     public int countAvailableBooks() {
         int count = 0;
