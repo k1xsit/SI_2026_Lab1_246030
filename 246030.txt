@@ -1,0 +1,25 @@
+ 9. git checkout -b feature-search-books
+10. nano SI2026Lab1Main.java - i go dodadov baraniot kod   i git commit "Implement book search"
+11. git push origin feature-search-books i napraviv pull na github
+12. git checkout master i git merge reature-search-books
+13. spojuvanjeto e fast-forward deka master grankata ne mrda dodeka rabotam na drugata.
+14. git push origin master
+
+15. git branch feature-borrow-book  i  git branch feature-genre-report
+16. git checkout feature-borrow-book  i nano SI2026Lab1Main.java  i git add SI2026Lab1Main.java i 
+git commit -m "Implement borrow book"
+17. pak odam na master so checkout , nano u fajlot , pravam promena , save , commit
+18. git checkout feature-genre-report i nano SI2026Lab1Main.java i pak menjam i commit
+19. git checout feature-borrow-book pa git push origin feature-borrow-book i pull na github
+20. istiot proces prakticno
+21. git checkout feature-borrow-book i git merge master
+22. Konflikt nastanuva vo java fajlot , bidejki isti redovi kod se menuvaa vo 2te granki.
+Resenie : racno go otvoriv fajlot , i go izbrisav git oznakite
+strategija - recursive
+
+23-24. pravime git merge dodeka sme vo master-ot
+Ovie spojuvanja se Recursive deka eksplicitno baram da se sozdade nov commit , a za vtoroto e recursive deka imase veke prethodno konflikt i master se pomesti.
+
+25. git push origin master
+26. git log --oneline --graph --all > logs.txt i nano 246030.txt
+27. pak push
