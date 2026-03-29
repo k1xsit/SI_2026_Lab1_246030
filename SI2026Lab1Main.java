@@ -132,7 +132,7 @@ public class SI2026Lab1Main {
         library.addBook(new Book("1984", "George Orwell", "Dystopian"));
 
         System.out.println("Library initialized.");
-	
+	// changing message	
 	System.out.println(searchBook(library, "Some Book Title"))	
     }
 }
